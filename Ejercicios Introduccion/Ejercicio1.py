@@ -1,5 +1,3 @@
-#Para resolver cada punto del Ejercico 1, es necesario quitar las lineas de comentario de las lineas de codigo.
-
 """
 Ejercicio 1:
 1) Rellenar la cadena del abecedario con el símbolo # hasta completar 30 caracteres.
