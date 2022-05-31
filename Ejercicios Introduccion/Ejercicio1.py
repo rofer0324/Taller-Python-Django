@@ -54,10 +54,12 @@ abecedario = string.ascii_uppercase
 print(abecedario.find('N'))
 
 #Despliega la subcadena que hay entre N y N+5. #Tambien es llamado a esto Slicing.
-cadena = abecedario[abecedario.find('N'): abecedario.find('N')+5]
+cadena = abecedario[abecedario.find('N')+1: abecedario.find('N')+6]
 print(cadena, "\n")
 
-del abecedario
+del abecedario, cadena
 
 print("6) Reemplazar la letra Z por Hola.")
 abecedario = string.ascii_uppercase
+print(abecedario.find('Z'))
+print(abecedario.replace('Z', 'Hola'), "\n")
