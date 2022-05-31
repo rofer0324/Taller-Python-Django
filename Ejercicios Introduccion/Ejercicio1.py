@@ -47,8 +47,19 @@ del abecedario
 print("4) Buscar en la cadena abecedario la letra R y saber su posicion")
 abecedario = string.ascii_uppercase
 print(abecedario)
-print(abecedario.find('R'))
+print(abecedario.find('R'), "\n")
 
+del abecedario
 
+print("5) Crea otra cadena con las 5 letras que van después de la n")
+abecedario = string.ascii_uppercase
+print(abecedario.find('N'))
 
+#Despliega la subcadena que hay entre N y N+5. #Tambien es llamado a esto Slicing.
+cadena = abecedario[abecedario.find('N'): abecedario.find('N')+5]
+print(cadena, "\n")
 
+del abecedario
+
+print("6) Reemplazar la letra Z por Hola.")
+abecedario = string.ascii_uppercase
