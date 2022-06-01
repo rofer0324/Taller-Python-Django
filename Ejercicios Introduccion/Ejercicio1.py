@@ -63,3 +63,15 @@ print("6) Reemplazar la letra Z por Hola.")
 abecedario = string.ascii_uppercase
 print(abecedario.find('Z'))
 print(abecedario.replace('Z', 'Hola'), "\n")
+
+del abecedario
+
+print("7) Obtener una lista de la cadena abecedario y separarla por la letra i")
+abecedario = string.ascii_lowercase
+print(abecedario.split('i'), "\n")
+
+del abecedario
+
+print("8) Unir la lista anterior con el símbolo “-” usando ‘-’.join(lista).")
+abecedario = string.ascii_lowercase
+print("__".join(abecedario.split('i')), "\n")
