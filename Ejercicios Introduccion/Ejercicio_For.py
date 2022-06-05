@@ -45,3 +45,18 @@ nombres = [ (Alvaro, Salamanca),   (Mario, Madrid),   (Marta, Salamanca),   (Jua
 Crea un programa que genere un diccionario de ciudades, y que para cada ciudad almacene los nombres de las distintas personas asociadas a esa ciudad
 """
 
+print("Crea un programa que genere un diccionario de ciudades, y que para cada ciudad almacene los nombres de las distintas personas asociadas a esa ciudad")
+
+nombres = [("Alvaro", "Salamanca"),   ("Mario", "Madrid"),   ("Marta", "Salamanca"),   ("Juan", "Avila"),   
+("Pedro", "Madrid"),   ("Susana", "Soria"),   ("Martin", "Valladolid"),   ("Mario", "Valladolid"),   ("Jorge", "Valencia")]
+
+resultado = {}
+
+for nombre, ciudad in nombres:
+    if ciudad not in resultado:
+        resultado [ciudad] = [nombre]
+    else:
+        resultado[ciudad].append(nombre)
+print(resultado)
+
+###---------------------------Anexo de Ejercicio---------------------------###
